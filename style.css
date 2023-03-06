@@ -88,3 +88,109 @@ th,td{
 #deleteAll{
     padding: 20px 10px;
 }
+@media(max-width:1024px){
+    header{
+        padding: 12px 20px;
+    }
+    section{
+        padding: 12px 20px;
+    }
+}
+@media(max-width:412px){
+    header{
+        padding: 12px 20px;
+    }
+    section{
+        padding: 12px 20px;
+    }
+    footer{
+        font-size: 0.8em;
+    }
+
+}
+@media(max-width:280px){
+    body{
+        font-size: 12px;
+    }
+    header{
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .logo{
+        font-size: 1.2em;
+    }
+    .navigation{
+        padding-left: 3px;
+        font-size: 0.5em;
+    }
+    section{
+        padding: 10px 15px;
+    }
+    footer{
+        font-size: 0.5em;
+    }
+}
+@media(max-width:912px){
+    header{
+        padding: 12px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    section{
+        padding: 12px 20px;
+    }
+    footer{
+        font-size: 0.5em;
+    }
+}
+@media(max-width:360px){
+    body{
+        font-size: 15px;
+    }
+    header{
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .logo{
+        font-size: 1.5em;
+    }
+    .navigation{
+        padding-left: 3px;
+        font-size: 0.8em;
+    }
+    section{
+        padding: 10px 15px;
+    }
+    footer{
+        font-size: 0.5em;
+    }
+}
+@media(max-width:393px){
+    body{
+        font-size: 15px;
+    }
+    header{
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .logo{
+        font-size: 1.5em;
+    }
+    .navigation{
+        padding-left: 3px;
+        font-size: 0.8em;
+    }
+    section{
+        padding: 10px 15px;
+    }
+    footer{
+        font-size: 0.5em;
+    }
+}
